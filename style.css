@@ -1,1 +1,37 @@
- @import url()cccc
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+:root{
+    --azul:rgb(0, 47, 255);
+    --azul-claro: rgb(31, 59, 106);
+    --prata: #bfc0c0ff;
+    --branco: #ffffffff;
+    --laranja: rgb(214, 121, 84);
+    --preto: #000000;
+    --fonte-primaria: "Exile", system-ui;
+    --fonte-secundaria: "DM Sans", sans-serif;
+}
+
+body{
+    background-color: var(--azul);
+    color: var(--preto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--fonte-secundaria);
+}
+.caixa-principal{
+    background-color: var(--azul-claro);
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+}
+.titulo{
+    font-family: var(--fonte-primaria);
+}
